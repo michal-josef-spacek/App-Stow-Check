@@ -14,4 +14,7 @@ use App::Stow::Check;
 exit App::Stow::Check->new->run;
 
 # Output:
-# TODO
+# Usage: ./ex1.pl [-h] [--version] command
+#         -h              Help.
+#         --version       Print version.
+#         command         Command for which is stow dist looking.
