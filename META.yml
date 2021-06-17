@@ -30,6 +30,7 @@ requires:
   File::Spec::Functions: 0
   File::Which: 0
   Getopt::Std: 0
+  Readonly: 0
   perl: 5.6.0
 resources:
   bugtracker: https://github.com/michal-josef-spacek/App-Stow-Check/issues

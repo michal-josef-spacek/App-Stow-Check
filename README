@@ -2,18 +2,24 @@ NAME
     stow-check - Tool to check for which stow dist command is.
 
 SYNOPSIS
-     stow-check [-h] [--version] command
+     stow-check [-d stow_dir] [-h] [--version] command
 
 DESCRIPTION
     Tool is checking:
 
      If command stands in /usr/local/bin
-     If links to /usr/local/stow/__DIST__/[s]bin/__COMMAND__
+     If links to __STOW_DIR__/__DIST__/[s]bin/__COMMAND__
 
     If yes, returns __DIST__ name and exit code 0. If no, returns error
     message to STDERR and exit code 1.
 
 ARGUMENTS
+    *       "-d stow_dir"
+
+            Stow directory.
+
+            Default value is '/usr/local/stow'.
+
     *       "-h"
 
             Print help.
