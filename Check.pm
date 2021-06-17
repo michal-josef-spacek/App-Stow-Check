@@ -118,6 +118,14 @@ Run method. Check if command is in stow directory and print error message
 
 Returns exit code.
 
+=head1 ERRORS
+
+ run():
+         Command '%s' doesn't use stow.
+         Command '%s' don't use 'bin/sbin' path.
+         Command '%s' not found.
+         Stow directory '%s' doesn't exist.
+
 =head1 EXAMPLE
 
  use strict;

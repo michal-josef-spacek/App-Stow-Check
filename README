@@ -32,6 +32,12 @@ ARGUMENTS
 
             Command name (e.g. openssl).
 
+ERRORS
+     Command '%s' doesn't use stow.
+     Command '%s' don't use 'bin/sbin' path.
+     Command '%s' not found.
+     Stow directory '%s' doesn't exist.
+
 EXAMPLE1
      stow-check -h
 
