@@ -1,5 +1,6 @@
 0.03
  - Add test for constructor.
+ - Add test for run method with help.
  - Improve help.
  - Update copyright years.
 
