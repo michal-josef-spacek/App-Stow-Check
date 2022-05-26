@@ -5,7 +5,7 @@ use warnings;
 
 use App::Stow::Check;
 
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 # Run.
 exit App::Stow::Check->new->run;
@@ -97,6 +97,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.03
+0.04
 
 =cut
